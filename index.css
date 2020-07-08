@@ -1,0 +1,29 @@
+img{
+    width: 100%;
+}
+
+.pic_album{
+    width: 10%;   
+}
+
+p{
+    text-align: left;
+}
+
+ul{
+    padding: 0px;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+@media (max-width: 550px){
+    section{
+        flex-direction: column;
+    }
+}
